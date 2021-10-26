@@ -1,0 +1,57 @@
+﻿body {
+    background-color:lightgray;
+    position:relative;
+}
+
+/*selettore attributo id*/
+
+#logo {
+    
+    width :180px;
+    height:100px;
+    border:1px dotted blue;
+}
+#Nomehotel {
+    position: absolute;
+    margin-top:30px;
+    margin-left:40px;
+    border: 1px dashed, red;
+    color: darkmagenta;
+    font-size:25px;
+}
+
+h1 {
+
+    color:darkmagenta;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+}
+
+a:link{
+    color:coral;
+} 
+     a:active {
+         color:darkcyan;
+
+}  
+a:hover{
+color:brown;
+background-color: darkgrey;
+text-decoration:none;
+
+}
+a:visited {
+color: darkmagenta;
+}
+p::first-letter {
+    currentColor: rgb(139 0 139 / 0,63);
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:25px;
+
+}
+
+footer {
+
+    text-align:center;
+}
